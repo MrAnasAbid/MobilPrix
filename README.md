@@ -7,10 +7,10 @@
 * Containerized the model using Docker for efficient deployment.
 
 ## Code and Resources Used 
-**Python Version:** 3.11
-**Dataset (Kaggle):** https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
-**Skopt Tutorial:** https://www.youtube.com/watch?v=5nYqK-HaoKY&t=2320s
-**Deployment of Streamlit UI:** https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker
+* **Python Version:** 3.11
+* **Dataset (Kaggle):** https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
+* **Skopt Tutorial:** https://www.youtube.com/watch?v=5nYqK-HaoKY&t=2320s
+* **Deployment of Streamlit UI:** https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker
 
 ## Model Building 
 
