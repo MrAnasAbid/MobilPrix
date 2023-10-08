@@ -1,5 +1,5 @@
 # Mobile Price Classification Project: Project Overview
-* Developed a tool facilitating users in estimating the price class of their desired mobile phones.
+* Developed a tool that helps users in estimating the price class of their desired mobile phones.
 * Conducted an analysis on how the price class correlates with various criteria, such as RAM and battery power.
 * Employed hypothesis tests (1-way ANOVA, chi-squared tests) to quantify the relationships between features and the target variable.
 * Optimized Logistic Regression, Random Forest, and SVC using GridSearchCV and Bayesian Optimization to attain the best-performing model.
