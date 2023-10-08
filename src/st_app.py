@@ -1,6 +1,5 @@
 import streamlit as st
 from utils import columns, log_reg_model as model
-import pickle
 
 import numpy as np
 import pandas as pd
