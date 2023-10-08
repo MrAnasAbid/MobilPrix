@@ -24,7 +24,6 @@ I experimented with three different models, evaluating their performance based o
 * **Support Vector Machines:** - Utilized for its flexibility in handling complex relationships
 
 Preprocessing (Standardization) was used for Logistic Regression (necessity of scaling) and SVM (convergence speed), Hyperparameter optimization was also used to tune the models, resulting in the following scores on a 5-fold cross validation:
-'5-Fold Accuracy': ['97.50%', '90.05%', '97.30%']
 *	**Logistic Regression:** : accuracy: 97.50%
 *	**Random Forest:**: accuracy: 90.05%
 *	**Support Vector Machines:**: accuracy: 97.30%
