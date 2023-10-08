@@ -1,3 +1,5 @@
+#Credits to: https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker
+
 FROM python:3.9-slim
 
 WORKDIR /app
