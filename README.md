@@ -48,7 +48,7 @@ git clone https://github.com/MrAnasAbid/MobilePhoneClassif.git
 pip install -r requirements.txt
 
 # Step 3a: Run the project locally
-python wsgi.py
+python src/wsgi.py
 
 # Step 3b: Deploy the Docker container
 docker build -t <image_name> .
