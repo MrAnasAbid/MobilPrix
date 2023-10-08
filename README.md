@@ -15,7 +15,7 @@
 ## Model Building 
 
 I First performed EDA and statistical tests to gain insights on the most informative features, below are the prevalent ones and how they split the target variable:
-![alt text](https://github.com/MrAnasAbid/MobilePhoneClassif/tree/main/Informative_features.png "Most informative predictors")  
+![Informative_features](https://github.com/MrAnasAbid/MobilePhoneClassif/assets/115592120/32c4449d-198c-45e1-803d-986df04de6a4)
 
 Since no binary features were informative enough, I decided to only keep the ordinal and continuous ones before the modeling phase.
 I experimented with three different models, evaluating their performance based on accuracy, given the absence of class privilege:
@@ -30,11 +30,11 @@ Preprocessing (Standardization) was used for Logistic Regression (necessity of s
 *	**Support Vector Machines:**: accuracy: 97.30%
 
 Logistic Regression was the best performing model, slightly edging out SVM, it was also preferred due to its faster computing time, the resulting confusion matrix on a 80/20 train test split is the following:
-![alt text](https://github.com/MrAnasAbid/MobilePhoneClassif/tree/main/LogRegConfusionMatrix.png "Confusion Matrix for the model") 
+![LogRegConfusionMatrix](https://github.com/MrAnasAbid/MobilePhoneClassif/assets/115592120/d14949be-ed78-4352-bf8b-39ead0650a3d)
  
 ## User Interface
 A streamlit UI was developed to facilitate end users experience with the model, providing a comprehensive and easy tool to use
-![alt text](https://github.com/MrAnasAbid/MobilePhoneClassif/tree/main/UI_preview.png "UI preview") 
+![UI_preview](https://github.com/MrAnasAbid/MobilePhoneClassif/assets/115592120/df5b1a93-2dbd-407d-92f1-1b342a5a3af4)
 
 ## Deployment
 In this step, I listed dependancies and packaged the project using Docker for efficient deployment on a server or cloud infrastructure
@@ -58,6 +58,5 @@ docker run -p 8501:8501 <container_name>
 
 ## Contributing
 Feel free to contribute to this project! If you have questions, feedback, or would like to report issues, please reach out:
-- **Email:** your.email@example.com
-- **GitHub:** [Your GitHub Profile](https://github.com/YourUsername)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourusername/)
+- **Email:** m.abid.anas@gmail.com
+- **LinkedIn:** [Anas Abid](https://www.linkedin.com/in/abidanas/)
