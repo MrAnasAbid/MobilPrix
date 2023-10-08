@@ -24,9 +24,9 @@ I experimented with three different models, evaluating their performance based o
 * **Support Vector Machines:** - Utilized for its flexibility in handling complex relationships
 
 Preprocessing (Standardization) was used for Logistic Regression (necessity of scaling) and SVM (convergence speed), Hyperparameter optimization was also used to tune the models, resulting in the following scores on a 5-fold cross validation:
-*	**Logistic Regression:** : accuracy: 97.50%
-*	**Random Forest:**: accuracy: 90.05%
-*	**Support Vector Machines:**: accuracy: 97.30%
+*	**Logistic Regression** - accuracy: 97.50%
+*	**Random Forest** - accuracy: 90.05%
+*	**Support Vector Machines:** - accuracy: 97.30%
 
 Logistic Regression was the best performing model, slightly edging out SVM, it was also preferred due to its faster computing time, the resulting confusion matrix on a 80/20 train test split is the following:
 ![LogRegConfusionMatrix](https://github.com/MrAnasAbid/MobilePhoneClassif/assets/115592120/d14949be-ed78-4352-bf8b-39ead0650a3d)
